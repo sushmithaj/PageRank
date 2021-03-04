@@ -1,5 +1,5 @@
 # PageRank
-Implemented a system that calculates PageRank 1 values of currently available Wikipedia articles.
+Implemented scala code  that calculates PageRank  values of currently available Wikipedia articles.
 These results can be used to rank search results within Wikipedia. Most of the Wikipedia articles contain links to other articles or external web contents. 
 We will consider only internal Wikipedia articles to calculate the PageRank.
 Performs three tasks.
