@@ -5,4 +5,4 @@ We will consider only internal Wikipedia articles to calculate the PageRank.
 Performs three tasks.
 1) Estimation of PageRank values under ideal conditions.
 2) Estimation of the PageRank values while considering dead-end articles.
-3) Analysis of the above results: Creating a Wikipedia Bomb
+3) Create a Wikipedia Bomb of a term to find the bias that can be created in pageRank
