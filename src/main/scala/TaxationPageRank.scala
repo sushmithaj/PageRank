@@ -22,7 +22,7 @@ object TaxationPageRank{
           val outgoingLinks = urls.size
           urls.map(url => (url, rank / outgoingLinks))
       }
-
+      // Add taxation to the ranks
       ranks = tRank.reduceByKey(_ + _).mapValues((0.15/totalPages) + 0.85 * _)
     }
     val titleRanks = titles.join(ranks).values
